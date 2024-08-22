@@ -35,7 +35,7 @@ public class DriverSingleton {
         return instance;
     }
 
-    public void closeMethod(){
+    public static  void closeMethod(){
         instance = null;
         driver.quit();
     }

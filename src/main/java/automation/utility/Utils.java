@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class Utils {
+   public  static int testCount = 0;
     public static boolean takeScreenShots(){
         File file = ((TakesScreenshot) DriverSingleton.getDriver()).getScreenshotAs(OutputType.FILE);
         try {

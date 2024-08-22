@@ -3,7 +3,7 @@ package automation.utility;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
-//1
+//1 BDD method
 @Component
 @PropertySource("framework.properties")
 public class ConfiguringProperties {

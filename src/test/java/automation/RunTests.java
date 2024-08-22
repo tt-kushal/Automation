@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","html:target/cucumber-reports"},
         features = "src/main/resources/feature"
 )
-//4
+//4 BDD method
 public class RunTests {
     @Test
     public void Tests(){}
